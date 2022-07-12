@@ -23,9 +23,13 @@ namespace Windows_Activator
         {
             var winVersion = WindowsVersion();
 
-            if (winVersion == null)
+            key = null;
+
+            if (winVersion == null) return;
+
+            if (!CheckForInternetConnection())
             {
-                key = null;
+                MessageBox.Show("Error.You are not connected to internet.Connect to internet and try again!");
                 return;
             }
 
@@ -34,7 +38,7 @@ namespace Windows_Activator
             HtmlWeb web = new HtmlWeb();
             var htmlDoc = web.Load(link);
 
-            var node = htmlDoc.DocumentNode.SelectSingleNode("//body").InnerText.Replace('\t', '\0');
+            var node = htmlDoc.DocumentNode.SelectSingleNode("//body").InnerText;
 
             int i = node.IndexOf(winVersion) + winVersion.Length;
             key = node.Substring(i + 1, KEY_LENGTH);
@@ -64,6 +68,20 @@ namespace Windows_Activator
             string? osName = Registry.GetValue(HKLMWinNTCurrent, "productName", "")?.ToString();
 
             return osName;
+        }
+
+        public bool CheckForInternetConnection()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                using (var stream = client.OpenRead("http://www.google.com"))
+                    return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
