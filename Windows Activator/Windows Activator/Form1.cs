@@ -48,14 +48,14 @@ namespace Windows_Activator
 
             string runCommand = $"/C slmgr/ipk {key} \n slmgr / skms kms.digiboy.ir \n slmgr / ato";
 
-            ProcessStartInfo myProcessInfo = new ProcessStartInfo();
-            myProcessInfo.FileName = Environment.ExpandEnvironmentVariables("%SystemRoot%") + @"\System32\cmd.exe";
-            myProcessInfo.Arguments = runCommand;
-            myProcessInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            myProcessInfo.UseShellExecute = true;
-            myProcessInfo.Verb = "runas";
+            ProcessStartInfo cmd = new ProcessStartInfo();
+            cmd.FileName = Environment.ExpandEnvironmentVariables("%SystemRoot%") + @"\System32\cmd.exe";
+            cmd.Arguments = runCommand;
+            cmd.WindowStyle = ProcessWindowStyle.Hidden;
+            cmd.UseShellExecute = true;
+            cmd.Verb = "runas";
 
-            Process.Start(myProcessInfo);
+            Process.Start(cmd);
         }
 
         private string? WindowsVersion()
