@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hvhjbGvnBttBYx6gbhcvNKpfM9hbTQOoVk+DBA92gD09qoAZ4MxHgmTkQM5/CSc1yXkRvelJa4S5zbjMcZ1Q0Q==",
+  "success": true,
+  "projectFilePath": "E:\\VisualStudioProjects\\Windows Activator\\Windows Activator\\Windows Activator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SnawBall dev\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512",
+    "C:\\Users\\SnawBall dev\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\SnawBall dev\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

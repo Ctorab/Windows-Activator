@@ -1,0 +1,21 @@
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\Windows Activator.exe
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\Windows Activator.deps.json
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\Windows Activator.runtimeconfig.json
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\Windows Activator.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\ref\Windows Activator.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\Windows Activator.pdb
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.csproj.AssemblyReference.cache
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows_Activator.Form1.resources
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.csproj.GenerateResource.cache
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.AssemblyInfoInputs.cache
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.AssemblyInfo.cs
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.csproj.CoreCompileInputs.cache
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\ref\Windows Activator.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.pdb
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.genruntimeconfig.cache
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\System.Management.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+E:\VisualStudioProjects\Windows Activator\Windows Activator\obj\Debug\net6.0-windows\Windows Activator.csproj.CopyComplete
+E:\VisualStudioProjects\Windows Activator\Windows Activator\bin\Debug\net6.0-windows\HtmlAgilityPack.dll
