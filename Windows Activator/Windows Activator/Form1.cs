@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Net;
 using HtmlAgilityPack;
 using Microsoft.Win32;
 
@@ -50,7 +51,7 @@ namespace Windows_Activator
         {
             if (key == null) return;
 
-            string runCommand = $"/C slmgr/ipk {key} \n slmgr / skms kms.digiboy.ir \n slmgr / ato";
+            string runCommand = $"/C slmgr/ipk {key}&slmgr /skms kms.digiboy.ir&slmgr /ato";
 
             ProcessStartInfo cmd = new ProcessStartInfo();
             cmd.FileName = Environment.ExpandEnvironmentVariables("%SystemRoot%") + @"\System32\cmd.exe";
